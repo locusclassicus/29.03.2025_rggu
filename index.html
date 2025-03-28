@@ -343,6 +343,10 @@
 
   <p class="date">29 марта 2025 г.</p>
 </section>
+<section id="ссылка-на-презентацию" class="slide level2">
+<h2>Ссылка на презентацию</h2>
+
+<img data-src="qr.png" class="r-stretch"></section>
 <section id="предыстория" class="slide level2">
 <h2>Предыстория</h2>
 <ul>
@@ -424,11 +428,11 @@
 <section id="консенсусное-дерево-в-stylo" class="slide level2">
 <h2>Консенсусное дерево в Stylo</h2>
 
-<img data-src="images_bw/img4.png" class="r-stretch"></section>
+<img data-src="images_bw/img4.png" class="r-stretch quarto-figure-center"><p class="caption">Консенсусное дерево, построенное в stylo (100–450 mfw, «вюрцбургская дельта»).</p></section>
 <section id="консенсусное-дерево-phangorn" class="slide level2">
 <h2>Консенсусное дерево Phangorn</h2>
 
-<img data-src="images_bw/img5.png" class="r-stretch"></section>
+<img data-src="images_bw/img5.png" class="r-stretch quarto-figure-center"><p class="caption">Консенсусное дерево, построенное в phangorn (300 mfw, «вюрцбургская дельта»).</p></section>
 <section id="конфликтующие-сигналы" class="slide level2">
 <h2>Конфликтующие сигналы</h2>
 
@@ -440,15 +444,15 @@
 <section id="консенсусная-сеть-consensusnet" class="slide level2">
 <h2>Консенсусная сеть: ConsensusNet</h2>
 
-<img data-src="images_bw/img7.png" class="r-stretch"></section>
+<img data-src="images_bw/img7.png" class="r-stretch quarto-figure-center"><p class="caption">Консенсусная сеть phangorn.</p></section>
 <section id="алгоритм-neighbornet" class="slide level2">
 <h2>Алгоритм NeighborNet</h2>
 
-<img data-src="images_bw/img8.png" class="r-stretch"></section>
+<img data-src="images_bw/img8.png" class="r-stretch quarto-figure-center"><p class="caption">Сеть NeighborNet</p></section>
 <section id="консенсусная-сеть-stylo" class="slide level2">
 <h2>Консенсусная сеть Stylo</h2>
 
-<img data-src="images_bw/img6.png" class="r-stretch"></section>
+<img data-src="images_bw/img6.png" class="r-stretch quarto-figure-center"><p class="caption">Консенсусная сеть stylo.</p></section>
 <section id="пример-на-других-данных" class="slide level2">
 <h2>Пример на других данных</h2>
 
@@ -472,68 +476,6 @@
 <li class="fragment">репозиторий проекта: https://github.com/locusclassicus/plato_new_model_2024</li>
 <li class="fragment">тг-канал: <span class="citation" data-cites="Rantiquity">@Rantiquity</span></li>
 </ul>
-</section>
-<section id="post-scriptum-из-рецензии-на-статью" class="slide level2">
-<h2>Post Scriptum: из рецензии на статью</h2>
-<blockquote>
-<p>Комплексный стилометрический анализ действительно говорит не столько о хронологии, сколько о жанровых особенностях текста; в этом автор прав. Но хотелось бы узнать отношение автора к тем отдельным языковым различиям между разными диалогами, которые дали основание Диттенбергеру разделить диалоги на ранние и поздние (например, сочетания с μήν). Появление τί μήν в одной только группе диалогов невозможно объяснить ни жанром, ни темой. Случайностью этот факт тоже назвать сложно. Как можно его объяснить, если не хронологией?</p>
-</blockquote>
-</section>
-<section id="группы-диттенбергера" class="slide level2">
-<h2>Группы Диттенбергера</h2>
-
-<img data-src="./images_after_review/Dittenberger_screenshot.png" class="r-stretch"></section>
-<section id="анализ-2-грам-диаграмма-рассеяния" class="slide level2">
-<h2>Анализ 2-грам: диаграмма рассеяния</h2>
-
-<img data-src="./images_after_review/Dittenberger_scatterplot.png" class="r-stretch"></section>
-<section id="анализ-2-грам-диаграмма-размаха" class="slide level2">
-<h2>Анализ 2-грам: диаграмма размаха</h2>
-
-<img data-src="./images_after_review/Dittenberger_boxplot.png" class="r-stretch"></section>
-<section id="тесты-на-статистическую-значимость" class="slide level2">
-<h2>Тесты на статистическую значимость</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Welch Two Sample t-test
-
-data:  groupI and groupIIa
-t = -3.8473, df = 21.691, p-value = 0.0008924
-alternative hypothesis: true difference in means is not equal to 0
-95 percent confidence interval:
- -0.0011473317 -0.0003432073
-sample estimates:
-   mean of x    mean of y 
-0.0007352891 0.0014805586 </code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Welch Two Sample t-test
-
-data:  groupIIa and groupIIb
-t = -0.77196, df = 21.677, p-value = 0.4485
-alternative hypothesis: true difference in means is not equal to 0
-95 percent confidence interval:
- -0.0010354988  0.0004740742
-sample estimates:
-  mean of x   mean of y 
-0.001480559 0.001761271 </code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Welch Two Sample t-test
-
-data:  groupI and groupNA
-t = 0.77414, df = 30.689, p-value = 0.4448
-alternative hypothesis: true difference in means is not equal to 0
-95 percent confidence interval:
- -0.0002257078  0.0005016956
-sample estimates:
-   mean of x    mean of y 
-0.0007352891 0.0005972952 </code></pre>
-</div>
-</div>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
