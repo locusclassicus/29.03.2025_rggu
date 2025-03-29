@@ -121,6 +121,7 @@ nodelabels(round(cons$node.label[2],2), 6,
 ## Алгоритм NeighborNet
 
 ![Сеть NeighborNet](images_bw/img8.png)
+
 ## Пример из другой области
 
 ![](https://locusclassicus.github.io/text_analysis_2024/images/cons3.jpg)
